@@ -6,6 +6,7 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.vue',
         './content/**/*.md',
+        'node_modules/preline/dist/*.js',
     ],
 
     theme: {
@@ -14,5 +15,7 @@ export default {
 
     plugins: [
         require('@tailwindcss/typography'),
+        require('preline/plugin'),
+
     ],
 };

@@ -10,9 +10,10 @@
 </head>
 
 <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-	<div class="container max-w-lg mx-auto py-8">
-		{{ template_content }}
-	</div>
+	{{ partial:_partials/navbar }}
+	{{ template_content }}
+	{{ partial:_partials/footer }}
+
 </body>
 
 </html>
