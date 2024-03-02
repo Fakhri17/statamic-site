@@ -7,11 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ title ?? site:name }}</title>
 	{{ vite src="resources/js/site.js|resources/css/site.css" }}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body class="bg-gray-100 font-sans leading-normal text-gray-800">
 	{{ partial:_partials/navbar }}
-	{{ template_content }}
+	<main>
+		<div class="py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+			{{ template_content }}
+		</div>
+	</main>
 	{{ partial:_partials/footer }}
 
 </body>

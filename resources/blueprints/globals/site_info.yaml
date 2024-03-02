@@ -1,0 +1,42 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: facebook
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Facebook
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: twitter
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Twitter
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: github
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Github
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
