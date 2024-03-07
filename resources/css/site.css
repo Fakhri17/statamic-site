@@ -3,3 +3,8 @@
 @import "tailwindcss/utilities";
 
 /* This is all you. */
+.disabled {
+  pointer-events: none;
+  opacity: 0.5; /* Optional: reduce opacity to visually indicate the disabled state */
+  cursor: not-allowed; /* Optional: set a 'not-allowed' cursor */
+}

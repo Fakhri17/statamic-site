@@ -2,3 +2,11 @@ super: true
 name: admin
 id: dfca0483-bf0c-45ca-b118-6190640d933e
 password_hash: $2y$10$5yItP7ZVc86SuyRA/6eFmu8Rp4EZBiHqGLhBQbVUyqZrYL/qp72oi
+preferences:
+  collections:
+    blog:
+      columns:
+        - title
+        - author
+        - date
+        - status
