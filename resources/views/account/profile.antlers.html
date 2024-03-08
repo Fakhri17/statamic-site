@@ -1,0 +1,9 @@
+{{ if logged_in }}
+  {{ user }}
+    The current user's name is {{ name }}.
+    <br>
+    The current user's email is {{ email }}.
+  {{ /user }}
+{{ else }}
+  {{ redirect to="/account/login" }}
+{{ /if }}

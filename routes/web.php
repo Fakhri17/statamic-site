@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
+
+Route::statamic('/account/login', 'account.login');
+Route::statamic('/account/profile', 'account.profile');
