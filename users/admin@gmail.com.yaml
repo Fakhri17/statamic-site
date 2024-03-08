@@ -10,3 +10,9 @@ preferences:
         - author
         - date
         - status
+    pages:
+      columns:
+        - title
+        - author
+        - slug
+        - status

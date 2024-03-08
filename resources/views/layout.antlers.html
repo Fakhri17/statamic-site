@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ title ?? site:name }}</title>
+	<title>{{ meta_title ?? site:name }}</title>
+	<meta name="description" content="{{ meta_description ?? site:description }}">
 	{{ vite src="resources/js/site.js|resources/css/site.css" }}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>

@@ -1,4 +1,4 @@
-{{ paginate }}
+
   {{ if prev_page != null || next_page != null }}
 
     {{ classPrevPage = prev_page == null ? 'disabled' : '' }}
@@ -18,10 +18,8 @@
         Next
       </a>
     </nav>
-    <div class="info">
+    <div class="info mt-4">
       {{ current_page }} of {{ total_pages }}
       Blog Posts total {{ total_items }}
     </div>
   {{ /if }}
-
-{{ /paginate }}
