@@ -7,6 +7,11 @@
       <div class="space-y-3">
         <h2 class="text-2xl font-bold md:text-3xl">{{ title }}</h2>
       </div>
+      <div class="flex mt-8 text-sm font-semibold tracking-widest uppercase">
+        {{ tags }}
+          <a href="/blog?tags={{ slug }}" class="mr-2 bg-gray-300 hover:bg-black hover:text-white rounded-lg px-2">{{ title }}</a>
+        {{ /tags }}
+      </div>
     </div>
 
   </div>
